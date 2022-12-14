@@ -11,7 +11,8 @@ const Login: React.FC = () => {
     <div className="wrapper">
       <div className="loginContainer">
         <div className="loginWrapper">
-          <h1>Welcome to Social Dev</h1>
+          <h1>Welcome to SocialDev</h1>
+          <div className="buttonsWrapper">
             <ButtonLogin
               icon={<BsFacebook />}
               style={{ backgroundColor: '#3b5998' }}
@@ -29,6 +30,7 @@ const Login: React.FC = () => {
               style={{ backgroundColor: '#171515' }}
               buttonText={'Login With Github'}
             />
+          </div>
         </div>
         <div className="imageContainer">
           <img src={loginImage} alt="Landing Page" />

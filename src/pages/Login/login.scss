@@ -24,6 +24,20 @@
       justify-content: center;
       flex-direction: column;
       padding: 20px;
+
+      gap: 45px;
+
+      h1{
+        font-size: 40px;
+      }
+
+      .buttonsWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 10px;
+      }
     }
 
     .imageContainer {

@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  font: 400 1rem "Roboto", sans-serif;
+}
+
+:root {
+  --primary-font: #0f3c4c;
+  --theme-color: #93f5b8;
+}
+
+button {
+  cursor: pointer;
+  transition: 10ms;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+}
